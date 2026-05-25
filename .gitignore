@@ -1,0 +1,90 @@
+# -----------------------------------------------------------------------------
+# ESP-IDF / CMake build output
+# -----------------------------------------------------------------------------
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+managed_components/
+dependencies.lock
+idf-env.json
+
+# -----------------------------------------------------------------------------
+# Build artifacts
+# -----------------------------------------------------------------------------
+*.elf
+*.bin
+*.map
+*.tmp
+*.o
+*.obj
+*.a
+*.d
+*.gcda
+*.gcno
+
+# -----------------------------------------------------------------------------
+# SDK configuration backups
+# -----------------------------------------------------------------------------
+sdkconfig.old
+sdkconfig.defaults.old
+
+# Keep sdkconfig if you want the exact project configuration committed.
+# Ignore it only if each PC should have its own config.
+# sdkconfig
+
+# Keep sdkconfig.defaults if you use it as the shared/default project config.
+# sdkconfig.defaults
+
+# -----------------------------------------------------------------------------
+# Python environments & caches
+# -----------------------------------------------------------------------------
+.venv/
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------------------------------------------------------
+# clangd / editor cache
+# -----------------------------------------------------------------------------
+.cache/
+.clangd
+
+# -----------------------------------------------------------------------------
+# Eclipse workspace data
+# -----------------------------------------------------------------------------
+.metadata/
+.localhistory/
+.externalToolBuilders/
+target/
+Release/
+Debug/
+.settings/language.settings.xml
+.settings/org.eclipse.cdt.core.prefs
+
+# -----------------------------------------------------------------------------
+# IDE files
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+cmake-build-*/
+
+# -----------------------------------------------------------------------------
+# OS junk files
+# -----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------------------------------------------------------
+# Backup and temporary files
+# -----------------------------------------------------------------------------
+.history/
+*~
+*.bak
+*.swp
+*.swo
